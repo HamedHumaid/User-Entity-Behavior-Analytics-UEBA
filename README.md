@@ -1,7 +1,7 @@
 # Statistical User and Entity Behavior Analytics (UEBA)
 
 ## Project Desciption
-This project implements a **User and Entity Behavior Analytics (UEBA)** system to detect insider threats using behavioral baselining and anomaly detection techniques. It compares a **Rule-Based Detection Engine** against a **Statistical UEBA Model** using the CERT Insider Threat Dataset r4.2.
+This project implements a **User and Entity Behavior Analytics (UEBA)** system to detect insider threats using behavioral baselining and anomaly detection techniques. It compares a **Rule-Based Detection Engine** against a **Statistical UEBA Model** using the **CERT Insider Threat Dataset r4.2**.
 
 ---
 ## Problem Statement
