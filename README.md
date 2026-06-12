@@ -1,33 +1,8 @@
 # Statistical User and Entity Behavior Analytics (UEBA)
 
-## Overview
+## Project Desciption
 
 This project implements a **User and Entity Behavior Analytics (UEBA)** system to detect insider threats using behavioral baselining and anomaly detection techniques. It compares a **Rule-Based Detection Engine** against a **Statistical UEBA Model** using the CERT Insider Threat Dataset v4.2.
-
----
-
-## Repository Structure
-
-```text
-ueba/
-│
-├── cert/
-│   ├── data/                         # Raw CERT dataset
-│   ├── scripts/                      # Data preprocessing & feature engineering
-│   │   ├── baseline.py               # Builds behavioral baseline for users
-│   │   ├── daily_user_features.py    # Extracts daily behavioral features
-│   │   ├── reduce_cert.py            # Reduces dataset for experiments
-│   │   ├── remove_training_insiders.py # Cleans insider-contaminated training data
-│
-├── src/
-│   ├── rule.py                       # Rule-based detection engine
-│   ├── ueba.py                       # Statistical UEBA model
-│
-├── output/                           
-└── r4.2/                             # CERT dataset version reference
-```
-
----
 
 ## Problem Statement
 
@@ -63,12 +38,12 @@ This project uses the:
 
 ---
 
-## How It Works
+## Project Flow 
 
 1. Load raw CERT dataset (`cert/data`)
 2. Extract daily behavioral features (`daily_user_features.py`)
+3. Remove malicious activities from baseline period (`remove_training_insiders.py`)
 3. Build user behavioral baselines (`baseline.py`)
-4. Clean training dataset (`remove_training_insiders.py`)
 5. Run statistical UEBA model (`src/ueba.py`)
 6. Run rule-based detection (`src/rule.py`)
 7. Compare detection performance using top-k metrics.
