@@ -1,0 +1,4 @@
+/r4.2
+cert/data/*
+!cert/data/features/
+
