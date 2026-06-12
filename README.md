@@ -4,6 +4,7 @@
 
 This project implements a **User and Entity Behavior Analytics (UEBA)** system to detect insider threats using behavioral baselining and anomaly detection techniques. It compares a **Rule-Based Detection Engine** against a **Statistical UEBA Model** using the CERT Insider Threat Dataset v4.2.
 
+---
 ## Problem Statement
 
 Traditional security systems rely heavily on:
@@ -12,6 +13,7 @@ Traditional security systems rely heavily on:
 - Predefined detection rules
 - Event correlation logic
 
+---
 ### Limitations:
 
 - Poor adaptability to unknown threats
