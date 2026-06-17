@@ -1,4 +1,4 @@
-# Statistical User and Entity Behavior Analytics (UEBA)
+# Statistical UEBA
 
 ## Project Flow 
 1. Load raw CERT Insider Threat Dataset r4.2 (`cert/data`)
