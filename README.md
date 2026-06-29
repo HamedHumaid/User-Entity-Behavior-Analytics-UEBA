@@ -1,5 +1,5 @@
 # Statistical UEBA
-This an experiment derived from the following thesis question : To what extent does a Statistical-UEBA detection system outperform a Rule-Based detection system in reducing false positive alerts and improving overall detection using CERT Insider Threat Dataset. 
+This is an experiment derived from the following thesis question : To what extent does a Statistical-UEBA detection system outperform a Rule-Based detection system in reducing false positive alerts and improving overall detection using CERT Insider Threat Dataset. 
 ## Project Flow 
 1. Load raw CERT Insider Threat Dataset r4.2 (`cert/data`)
 2. Extract a specific time window frame (`reduce_cert.py`)
